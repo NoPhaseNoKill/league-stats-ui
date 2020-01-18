@@ -6,5 +6,5 @@ module.exports = {
   tabWidth: 2,
   jsxBracketSameLine: true,
   arrowParens: 'always',
-  parser: 'typescript',
+  bracketSpacing: true,
 };

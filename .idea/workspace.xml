@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8e7b0be-d12b-42c2-b1d3-890b255fd29f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/components/HomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/HomePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HomePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslint.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/HomePage.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/serviceWorker.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,14 +45,15 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/tests/App" />
+      <recent name="$PROJECT_DIR$/src/tests" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/tests" />
       <recent name="$PROJECT_DIR$/src/styles" />
       <recent name="$PROJECT_DIR$/src/app/components" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/tests/App" />
-      <recent name="$PROJECT_DIR$/src/tests" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -123,6 +132,8 @@
       <updated>1579355473497</updated>
       <workItem from="1579355475407" duration="289000" />
       <workItem from="1579355771122" duration="2399000" />
+      <workItem from="1579360648358" duration="831000" />
+      <workItem from="1579361485237" duration="696000" />
     </task>
     <servers />
   </component>

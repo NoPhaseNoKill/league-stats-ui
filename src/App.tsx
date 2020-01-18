@@ -1,13 +1,12 @@
 import React from 'react';
-import { HomePage } from 'app/components/HomePage'
+import { HomePage } from 'components/HomePage';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <HomePage/>
+      <HomePage />
     </div>
   );
-}
+};
 
 export default App;
-
