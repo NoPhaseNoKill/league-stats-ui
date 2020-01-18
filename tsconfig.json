@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
+    "baseUrl": "src/",
     "lib": [
       "dom",
       "dom.iterable",
+      "scripthost",
       "esnext"
     ],
     "allowJs": true,
@@ -12,6 +14,7 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": false,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
@@ -20,6 +23,7 @@
     "jsx": "react"
   },
   "include": [
-    "src"
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
   ]
 }
