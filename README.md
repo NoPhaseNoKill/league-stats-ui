@@ -1,44 +1,49 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# dota-stats-ui
 
-## Available Scripts
+Dota Stats UI: A web interface for viewing everything stats related for Dota 2.
 
-In the project directory, you can run:
+## Quickstart
 
-### `yarn start`
+- Clone the repo using `git clone git://github.com/NoPhaseNoKill/dota-stats-ui.git`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Using Node/Yarn
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+- Install Node.js/Yarn
+- `npm install` or `yarn install`
+- `npm start` or `yarn start`
+- Will auto re-direct to browser on port 3000 on your development machine.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contributing
 
-### `yarn build`
+- Fork project
+- Make some changes.
+- `npm run lint` or `yarn lint` to check your code for linting errors.
+- `npm test` or `yarn test` to run the test suite.
+- Pull latest changes from upstream (see: https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
+- Submit a pull request. Wait for review and merge.
+- Congratulations! You're a contributor.
+- If you're interested in contributing regularly, let me know and I'll add you to the organization.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Additional notes
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- Git commit will run prettier and format code style appropriately
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tech Stack
 
-### `yarn eject`
+- Language: Typescript
+- View: React
+- CSS: semantic-ui-react
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Resources
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Semantic UI React
+  - https://react.semantic-ui.com/
+- Typescript
+  - Basic Docs: https://www.typescriptlang.org/docs/home.html
+  - More advanced patterns/examples: https://basarat.gitbook.io/typescript/
+- React:
+  - Tutorial: https://reactjs.org/tutorial/tutorial.html
+  - Hello world: https://reactjs.org/docs/hello-world.html
+  - Thinking in React: https://facebook.github.io/react/docs/thinking-in-react.html
