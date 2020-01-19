@@ -1,6 +1,6 @@
 module.exports = {
   parser: '@typescript-eslint/parser', // Specifies the ESLint parser
-  extends: ['eslint:recommended', 'plugin:@typescript-eslint/eslint-recommended', 'plugin:react/recommended'],
+  extends: ['eslint:recommended', 'plugin:@typescript-eslint/eslint-recommended', 'plugin:@typescript-eslint/recommended', 'plugin:react/recommended'],
   parserOptions: {
     ecmaVersion: 2019, // Allows for the parsing of modern ECMAScript features
     sourceType: 'module', // Allows for the use of imports
