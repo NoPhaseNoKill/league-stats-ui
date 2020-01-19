@@ -1,11 +1,11 @@
 import React from 'react';
-import { GridColumn } from 'semantic-ui-react';
+import { Banner } from 'components/Banner';
 
 export class HomePage extends React.PureComponent {
   render() {
     return (
       <div>
-        <GridColumn />
+        <Banner />
       </div>
     );
   }
