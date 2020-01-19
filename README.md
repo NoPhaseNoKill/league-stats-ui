@@ -1,8 +1,12 @@
 # dota-stats-ui
 
+---
+
 Dota Stats UI: A web interface for viewing everything stats related for Dota 2.
 
 ## Quickstart
+
+---
 
 - Clone the repo using `git clone git://github.com/NoPhaseNoKill/dota-stats-ui.git`
 
@@ -17,6 +21,8 @@ Dota Stats UI: A web interface for viewing everything stats related for Dota 2.
 
 ## Contributing
 
+---
+
 - Fork project
 - Make some changes.
 - `npm run lint` or `yarn lint` to check your code for linting errors.
@@ -28,15 +34,21 @@ Dota Stats UI: A web interface for viewing everything stats related for Dota 2.
 
 ## Additional notes
 
-- Git commit will run prettier and format code style appropriately
+---
+
+- Git commit will run prettier, and eslint, to format code style appropriately
 
 ## Tech Stack
+
+---
 
 - Language: Typescript
 - View: React
 - CSS: semantic-ui-react
 
 ## Resources
+
+---
 
 - Semantic UI React
   - https://react.semantic-ui.com/
