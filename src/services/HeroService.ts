@@ -12,6 +12,6 @@ export const HeroService = {
     return axios
       .request(requestConfig)
       .catch((response: AxiosError) => Promise.reject(response.response?.data))
-      .then((response: AxiosResponse) => response.data.result);
+      .then((response: AxiosResponse) => response.data.result.heroes);
   },
 };
