@@ -1,11 +1,12 @@
-import axios, { AxiosError, AxiosRequestConfig, AxiosResponse } from 'axios';
 import { Hero } from 'types/Hero/Hero';
+import { AxiosError, AxiosRequestConfig, AxiosResponse } from 'axios';
+import { axios } from 'services/fetch';
 
 export const HeroService = {
-  getAll: async (apiKey: string): Promise<Hero[]> => {
+  getAll: async (): Promise<Hero[]> => {
     const requestConfig: AxiosRequestConfig = {
       method: 'get',
-      url: `https://api.steampowered.com/IEconDOTA2_205790/GetHeroes/v1/?key=${apiKey}`,
+      url: `IEconDOTA2_205790/GetHeroes/v1`,
     };
 
     return axios
