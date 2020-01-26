@@ -16,7 +16,7 @@ Dota Stats UI: A web interface for viewing everything stats related for Dota 2.
 ### Before starting app
 
 - Create .env file in root directory
-- Add 'STEAM_API=\${YOUR_KEY_GOES_HERE}'
+- Add STEAM_API=XXXXXXXXXXXXX (your key instead of XXXXXX)
 
 ## Contributing
 
