@@ -13,6 +13,11 @@ Dota Stats UI: A web interface for viewing everything stats related for Dota 2.
 - `npm start` or `yarn start`
 - Will auto re-direct to browser on port 3000 on your development machine.
 
+### Before starting app
+
+- Create .env file in root directory
+- Add 'STEAM_API=\${YOUR_KEY_GOES_HERE}'
+
 ## Contributing
 
 - Fork project
