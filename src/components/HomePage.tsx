@@ -4,6 +4,7 @@ import { HeroService } from 'services/HeroService';
 import { ItemService } from 'services/ItemService';
 import { Hero } from 'types/Hero/Hero';
 import { Item } from 'types/Item/Item';
+import { Button, ButtonBig } from 'styles/components/Button';
 
 type State = {
   heroes: Hero[];
@@ -26,6 +27,8 @@ export class HomePage extends React.PureComponent {
     return (
       <div>
         <Banner />
+        <Button content={'semantic + styled'} />
+        <ButtonBig content={'should be big'} />
       </div>
     );
   }

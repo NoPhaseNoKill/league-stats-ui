@@ -17,6 +17,9 @@ Dota Stats UI: A web interface for viewing everything stats related for Dota 2.
 
 - Create .env file in root directory
 - Add STEAM_API=XXXXXXXXXXXXX (your key instead of XXXXXX)
+- If you would like IntelliSense for styled-components' template literals, please download relevant IDE plugin
+  - VSCode: https://github.com/styled-components/vscode-styled-components
+  - IntelliJ: https://plugins.jetbrains.com/plugin/9997-styled-components--styled-jsx/
 
 ## Contributing
 
@@ -36,13 +39,17 @@ Dota Stats UI: A web interface for viewing everything stats related for Dota 2.
 ## Tech Stack
 
 - Language: Typescript
-- View: React
-- CSS: semantic-ui-react
+- Framework: React
+- CSS: semantic-ui-react with styled-components
 
 ## Resources
 
 - Semantic UI React
   - https://react.semantic-ui.com/
+- Styled Components
+
+  - https://styled-components.com/docs
+
 - Typescript
   - Basic Docs: https://www.typescriptlang.org/docs/home.html
   - More advanced patterns/examples: https://basarat.gitbook.io/typescript/
