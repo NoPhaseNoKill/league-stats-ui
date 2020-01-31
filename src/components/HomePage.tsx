@@ -27,8 +27,8 @@ export class HomePage extends React.PureComponent {
     return (
       <div>
         <Banner />
-        <Button content={'semantic + styled'} />
-        <ButtonBig content={'should be big'} />
+        <Button content={'small button'} />
+        <ButtonBig content={'big button'} />
       </div>
     );
   }
