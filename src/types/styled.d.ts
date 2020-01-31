@@ -9,6 +9,8 @@ declare module 'styled-components' {
     fontSize: string;
     colors: {
       main: string;
+      background: string;
+      border: string;
     };
   };
 }

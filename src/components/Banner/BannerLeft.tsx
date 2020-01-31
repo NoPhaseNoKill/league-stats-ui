@@ -7,9 +7,9 @@ const ThemedGridColumn = (props: ThemedComponentProps<StrictGridColumnProps>) =>
 
 const StyledColumn = styled(ThemedGridColumn)`
   &&& {
-    border-bottom: 5px solid darkred;
-    border-right: 5px solid darkred;
-    background: #2b2b2b;
+    border-bottom: 5px solid ${(props) => props.theme.colors.border};
+    border-right: 5px solid ${(props) => props.theme.colors.border};
+    background: ${(props) => props.theme.colors.background};
   }
 `;
 
