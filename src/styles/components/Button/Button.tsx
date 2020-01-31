@@ -1,12 +1,9 @@
 import React from 'react';
-import styled, { DefaultTheme } from 'styled-components';
-import { Button as SemanticButton, ButtonProps as SemanticButtonProps } from 'semantic-ui-react';
+import styled from 'styled-components';
+import { Button as SemanticButton, ButtonProps } from 'semantic-ui-react';
+import { ThemedComponentProps } from 'types/Theme/ThemedComponentProps';
 
-type ButtonProps = SemanticButtonProps & {
-  theme: DefaultTheme;
-};
-
-const TypedButton = (props: ButtonProps) => <SemanticButton {...props} />;
+const TypedButton = (props: ThemedComponentProps<ButtonProps>) => <SemanticButton {...props} />;
 
 export const Button = styled(TypedButton)`
   &&& {
