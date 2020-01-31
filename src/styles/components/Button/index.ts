@@ -1,2 +1,2 @@
 export { Button } from 'styles/components/Button/Button';
-export { ButtonBig } from './ButtonBig';
+export { ButtonBlue } from 'styles/components/Button/ButtonBlue';

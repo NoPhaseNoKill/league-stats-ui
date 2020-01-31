@@ -1,10 +1,10 @@
 import React from 'react';
-import { Banner } from 'components/Banner';
+import { Banner } from 'components/Banner/Banner';
 import { HeroService } from 'services/HeroService';
 import { ItemService } from 'services/ItemService';
 import { Hero } from 'types/Hero/Hero';
 import { Item } from 'types/Item/Item';
-import { Button, ButtonBig } from 'styles/components/Button';
+import { Button, ButtonBlue } from 'styles/components/Button';
 
 type State = {
   heroes: Hero[];
@@ -27,8 +27,8 @@ export class HomePage extends React.PureComponent {
     return (
       <div>
         <Banner />
-        <Button content={'small button'} />
-        <ButtonBig content={'big button'} />
+        <Button content={'small green button'} />
+        <ButtonBlue content={'big blue button'} />
       </div>
     );
   }
