@@ -5,6 +5,6 @@ export const theme: DefaultTheme = {
   colors: {
     main: 'green',
     background: '#2b2b2b',
-    border: 'darkred',
+    border: '#921313',
   },
 };
