@@ -12,7 +12,7 @@ export class BannerMiddle extends React.PureComponent {
             src="http://icons.iconarchive.com/icons/bokehlicia/pacifica/256/steam-2-icon.png"
           />
           <Header.Content>DOTA STATS</Header.Content>
-          <Header.Subheader>Everything a professional could need.</Header.Subheader>
+          <Header.Subheader>Everything a professional needs.</Header.Subheader>
         </Header>
       </Grid.Column>
     );

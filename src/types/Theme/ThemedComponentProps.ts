@@ -4,6 +4,9 @@ import {
   StrictButtonGroupProps,
   StrictButtonOrProps,
   StrictButtonProps,
+  StrictGridColumnProps,
+  StrictGridProps,
+  StrictGridRowProps,
 } from 'semantic-ui-react';
 
 /*
@@ -16,7 +19,9 @@ type SemanticStrictButtonProps =
   | StrictButtonContentProps
   | StrictButtonGroupProps
   | StrictButtonOrProps;
-type SemanticStrictComponentProps = SemanticStrictButtonProps;
+
+type SemanticStrictGridProps = StrictGridProps | StrictGridColumnProps | StrictGridRowProps;
+type SemanticStrictComponentProps = SemanticStrictButtonProps | SemanticStrictGridProps;
 
 export type ThemedComponentProps<T extends SemanticStrictComponentProps> = T & {
   theme: DefaultTheme;
