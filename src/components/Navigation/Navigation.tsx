@@ -6,11 +6,11 @@ export class Navigation extends React.PureComponent {
   render() {
     return (
       <Grid columns={16}>
-        <Grid.Column width={6} />
-        <Grid.Column width={2} stretched>
+        <Grid.Column width={7} />
+        <Grid.Column width={1} stretched>
           <Button content={'green button'} />
         </Grid.Column>
-        <Grid.Column width={2} stretched>
+        <Grid.Column width={1} stretched>
           <ButtonBlue content={'blue button'} />
         </Grid.Column>
         <Grid.Column />

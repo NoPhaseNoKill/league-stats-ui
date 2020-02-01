@@ -16,7 +16,6 @@ const ThemedHeader = (props: ThemedComponentProps<StrictHeaderProps>) => <Header
 
 const StyledHeader = styled(ThemedHeader)`
   &&& {
-    padding-bottom: 0;
     margin-bottom: 0;
   }
 `;

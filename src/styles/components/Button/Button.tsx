@@ -8,6 +8,5 @@ const ThemedButton = (props: ThemedComponentProps<StrictButtonProps>) => <Semant
 export const Button = styled(ThemedButton)`
   &&& {
     color: ${(props) => props.theme.colors.main};
-    font-size: ${(props) => props.theme.fontSize};
   }
 `;
