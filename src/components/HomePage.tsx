@@ -24,9 +24,13 @@ export class HomePage extends React.PureComponent {
   };
 
   componentDidMount = async () => {
-    const heroes = await HeroService.getAll();
-    const items = await ItemService.getAll();
-    this.setState({ heroes, items });
+    try {
+      const heroes = await HeroService.getAll();
+      const items = await ItemService.getAll();
+      this.setState({ heroes, items });
+    } catch (e) {
+      console.error(`Error while retrieving data: ${e}`);
+    }
   };
 
   render() {
