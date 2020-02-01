@@ -4,9 +4,13 @@ import {
   StrictButtonGroupProps,
   StrictButtonOrProps,
   StrictButtonProps,
+  StrictDividerProps,
   StrictGridColumnProps,
   StrictGridProps,
   StrictGridRowProps,
+  StrictHeaderContentProps,
+  StrictHeaderProps,
+  StrictHeaderSubheaderProps,
 } from 'semantic-ui-react';
 
 /*
@@ -21,7 +25,14 @@ type SemanticStrictButtonProps =
   | StrictButtonOrProps;
 
 type SemanticStrictGridProps = StrictGridProps | StrictGridColumnProps | StrictGridRowProps;
-type SemanticStrictComponentProps = SemanticStrictButtonProps | SemanticStrictGridProps;
+//Omit as prop to avoid conflict with semantic ui
+type SemanticStrictHeaderProps = Omit<StrictHeaderContentProps | StrictHeaderProps | StrictHeaderSubheaderProps, 'as'>;
+type SemanticStrictDividerProps = StrictDividerProps;
+type SemanticStrictComponentProps =
+  | SemanticStrictButtonProps
+  | SemanticStrictGridProps
+  | SemanticStrictHeaderProps
+  | SemanticStrictDividerProps;
 
 export type ThemedComponentProps<T extends SemanticStrictComponentProps> = T & {
   theme: DefaultTheme;

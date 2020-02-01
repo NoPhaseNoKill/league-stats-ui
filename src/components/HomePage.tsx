@@ -4,8 +4,9 @@ import { HeroService } from 'services/HeroService';
 import { ItemService } from 'services/ItemService';
 import { Hero } from 'types/Hero/Hero';
 import { Item } from 'types/Item/Item';
-import { Button, ButtonBlue } from 'styles/components/Button';
 import styled from 'styled-components';
+import { Navigation } from 'components/Navigation/Navigation';
+import { Divider, Grid, GridRow } from 'semantic-ui-react';
 
 type State = {
   heroes: Hero[];
@@ -31,9 +32,13 @@ export class HomePage extends React.PureComponent {
   render() {
     return (
       <StyledHomePage>
-        <Banner />
-        <Button content={'small green button'} />
-        <ButtonBlue content={'big blue button'} />
+        <Grid>
+          <GridRow>
+            <Banner />
+          </GridRow>
+        </Grid>
+        <Divider inverted />
+        <Navigation />
       </StyledHomePage>
     );
   }
