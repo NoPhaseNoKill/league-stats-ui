@@ -8,10 +8,10 @@ declare module 'styled-components' {
   export type DefaultTheme = {
     fontSize: string;
     colors: {
-      main: string;
       background: string;
       dotaRed: string;
-      grey: string;
+      charcoal: string;
+      lightGrey: string;
     };
   };
 }

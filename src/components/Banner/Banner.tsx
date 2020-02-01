@@ -13,7 +13,7 @@ const StyledHeader = styled(ThemedHeader)`
 
 const StyledContent = styled.div`
   &&& {
-    color: ${(props) => props.theme.colors.grey};
+    color: ${(props) => props.theme.colors.lightGrey};
   }
 `;
 
