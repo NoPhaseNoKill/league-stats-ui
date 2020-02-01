@@ -6,7 +6,7 @@ import { Hero } from 'types/Hero/Hero';
 import { Item } from 'types/Item/Item';
 import styled from 'styled-components';
 import { Navigation } from 'components/Navigation/Navigation';
-import { Divider, Grid, GridRow } from 'semantic-ui-react';
+import { Divider } from 'semantic-ui-react';
 
 type State = {
   heroes: Hero[];
@@ -32,11 +32,7 @@ export class HomePage extends React.PureComponent {
   render() {
     return (
       <StyledHomePage>
-        <Grid>
-          <GridRow>
-            <Banner />
-          </GridRow>
-        </Grid>
+        <Banner />
         <Divider inverted />
         <Navigation />
       </StyledHomePage>
