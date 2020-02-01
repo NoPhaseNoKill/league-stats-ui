@@ -4,6 +4,7 @@ export const theme: DefaultTheme = {
   colors: {
     main: 'green',
     background: '#2b2b2b',
-    border: '#921313',
+    dotaRed: '#e1412f',
+    grey: '#555555',
   },
 };

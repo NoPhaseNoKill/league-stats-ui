@@ -10,7 +10,8 @@ declare module 'styled-components' {
     colors: {
       main: string;
       background: string;
-      border: string;
+      dotaRed: string;
+      grey: string;
     };
   };
 }
