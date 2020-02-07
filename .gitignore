@@ -29,3 +29,5 @@ yarn-debug.log*
 yarn-error.log*
 
 *.iml
+# remove anyone using npm for install
+package-lock.json
