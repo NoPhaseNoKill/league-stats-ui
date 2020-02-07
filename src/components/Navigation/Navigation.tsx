@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid } from 'semantic-ui-react';
+import { Button, Grid } from 'semantic-ui-react';
 import { NavigationButton } from 'styles/components/Buttons';
 
 export class Navigation extends React.PureComponent {
@@ -12,6 +12,9 @@ export class Navigation extends React.PureComponent {
         </Grid.Column>
         <Grid.Column width={1} stretched>
           <NavigationButton content={'Nav Button 2'} />
+        </Grid.Column>
+        <Grid.Column width={1} stretched>
+          <Button content={'Semantic Unstyled'} />
         </Grid.Column>
         <Grid.Column />
       </Grid>
