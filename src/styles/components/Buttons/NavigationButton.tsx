@@ -7,7 +7,5 @@ import { StrictButtonProps } from 'semantic-ui-react';
 const ThemedButton = (props: ThemedComponentProps<StrictButtonProps>) => <Button {...props} />;
 
 export const NavigationButton = styled(ThemedButton)`
-  &&& {
-    border-radius: 9px;
-  }
+  border-radius: 9px;
 `;
