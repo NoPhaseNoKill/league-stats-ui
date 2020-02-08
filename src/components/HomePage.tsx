@@ -17,6 +17,12 @@ const StyledHomePage = styled.div`
   background: ${(props) => props.theme.colors.background};
 `;
 
+const PageContainer = styled.div`
+  border: 1px solid ${(props) => props.theme.colors.lightGrey};
+  text-align: center;
+  color: ${(props) => props.theme.colors.lightGrey};
+`;
+
 export class HomePage extends React.PureComponent {
   state: State = {
     heroes: [],
@@ -39,6 +45,8 @@ export class HomePage extends React.PureComponent {
         <Banner />
         <Divider inverted />
         <Navigation />
+        <Divider inverted />
+        <PageContainer>Some content to go here</PageContainer>
       </StyledHomePage>
     );
   }
