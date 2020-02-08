@@ -21,6 +21,7 @@ const PageContainer = styled.div`
   border: 1px solid ${(props) => props.theme.colors.lightGrey};
   text-align: center;
   color: ${(props) => props.theme.colors.lightGrey};
+  height: 1000px;
 `;
 
 export class HomePage extends React.PureComponent {
