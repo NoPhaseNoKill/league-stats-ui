@@ -13,7 +13,7 @@ type State = {
   items: Item[];
 };
 
-const StyledHomePage = styled.div`
+const StyledPage = styled.div`
   background: ${(props) => props.theme.colors.background};
 `;
 
@@ -24,7 +24,7 @@ const PageContainer = styled.div`
   height: 1000px;
 `;
 
-export class HomePage extends React.PureComponent {
+export class Home extends React.PureComponent {
   state: State = {
     heroes: [],
     items: [],
@@ -42,13 +42,13 @@ export class HomePage extends React.PureComponent {
 
   render() {
     return (
-      <StyledHomePage>
+      <StyledPage>
         <Banner />
         <Divider inverted />
         <Navigation />
         <Divider inverted />
         <PageContainer>Some content to go here</PageContainer>
-      </StyledHomePage>
+      </StyledPage>
     );
   }
 }
