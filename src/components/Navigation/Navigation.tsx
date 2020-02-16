@@ -30,16 +30,14 @@ export class Navigation extends React.PureComponent {
           <Grid.Column />
         </Grid>
         <Switch>
-          <Route path="/heroes">
-            <PageContentContainer>
+          <PageContentContainer>
+            <Route path="/heroes">
               <Heroes />
-            </PageContentContainer>
-          </Route>
-          <Route path="/">
-            <PageContentContainer>
+            </Route>
+            <Route path="/">
               <Home />
-            </PageContentContainer>
-          </Route>
+            </Route>
+          </PageContentContainer>
         </Switch>
       </>
     );
