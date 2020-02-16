@@ -1,35 +1,29 @@
 import React from 'react';
-import { ThemeProvider } from 'styled-components';
+import styled, { ThemeProvider } from 'styled-components';
 import { theme } from 'styles/theme/theme';
-import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom';
-import { Heroes, Home } from 'components/Pages';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Banner } from 'components/Banner/Banner';
+import { Divider } from 'semantic-ui-react';
+import { Navigation } from 'components/Navigation/Navigation';
+
+const StyledPage = styled.div`
+  background: ${(props) => props.theme.colors.background};
+`;
 
 const App = () => {
   return (
-    <div className="App">
-      <ThemeProvider theme={theme}>
-        <Router>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/heroes">Heroes</Link>
-              </li>
-            </ul>
-          </nav>
-          <Switch>
-            <Route path="/heroes">
-              <Heroes />
-            </Route>
-            <Route path="/">
-              <Home />
-            </Route>
-          </Switch>
-        </Router>
-      </ThemeProvider>
-    </div>
+    <Router>
+      <div className="App">
+        <ThemeProvider theme={theme}>
+          <StyledPage>
+            <Banner />
+            <Divider inverted />
+            <Navigation />
+            <Divider inverted />
+          </StyledPage>
+        </ThemeProvider>
+      </div>
+    </Router>
   );
 };
 

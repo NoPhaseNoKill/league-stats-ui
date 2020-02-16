@@ -1,28 +1,13 @@
 import React from 'react';
-import { Banner } from 'components/Banner/Banner';
-import { HeroService } from 'services/HeroService';
-import { ItemService } from 'services/ItemService';
 import { Hero } from 'types/Hero/Hero';
 import { Item } from 'types/Item/Item';
-import styled from 'styled-components';
-import { Navigation } from 'components/Navigation/Navigation';
-import { Divider } from 'semantic-ui-react';
+import { HeroService } from 'services/HeroService';
+import { ItemService } from 'services/ItemService';
 
 type State = {
   heroes: Hero[];
   items: Item[];
 };
-
-const StyledPage = styled.div`
-  background: ${(props) => props.theme.colors.background};
-`;
-
-const PageContainer = styled.div`
-  border: 1px solid ${(props) => props.theme.colors.lightGrey};
-  text-align: center;
-  color: ${(props) => props.theme.colors.lightGrey};
-  height: 1000px;
-`;
 
 export class Home extends React.PureComponent {
   state: State = {
@@ -41,14 +26,6 @@ export class Home extends React.PureComponent {
   };
 
   render() {
-    return (
-      <StyledPage>
-        <Banner />
-        <Divider inverted />
-        <Navigation />
-        <Divider inverted />
-        <PageContainer>Some content to go here</PageContainer>
-      </StyledPage>
-    );
+    return <div>This is the homepage</div>;
   }
 }

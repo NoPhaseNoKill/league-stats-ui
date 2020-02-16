@@ -25,9 +25,11 @@ type SemanticStrictButtonProps =
   | StrictButtonOrProps;
 
 type SemanticStrictGridProps = StrictGridProps | StrictGridColumnProps | StrictGridRowProps;
-//Omit as prop to avoid conflict with semantic ui
-type SemanticStrictHeaderProps = Omit<StrictHeaderContentProps | StrictHeaderProps | StrictHeaderSubheaderProps, 'as'>;
+
+type SemanticStrictHeaderProps = StrictHeaderContentProps | StrictHeaderProps | StrictHeaderSubheaderProps;
+
 type SemanticStrictDividerProps = StrictDividerProps;
+
 type SemanticStrictComponentProps =
   | SemanticStrictButtonProps
   | SemanticStrictGridProps
