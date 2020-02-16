@@ -10,7 +10,7 @@ type Props = RouteComponentProps & {
   label: string;
 };
 
-const RouterlessNavigationButton = (props: Props) => {
+const RouteredNavigationButton = (props: Props) => {
   const ThemedButton = (props: ThemedComponentProps<StrictButtonProps>) => <Button {...props} />;
 
   const StyledButton = styled(ThemedButton)`
@@ -24,4 +24,4 @@ const RouterlessNavigationButton = (props: Props) => {
   return <StyledButton onClick={onClick}>{props.label}</StyledButton>;
 };
 
-export const NavigationButton = withRouter(RouterlessNavigationButton);
+export const NavigationButton = withRouter(RouteredNavigationButton);
