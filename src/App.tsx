@@ -19,7 +19,6 @@ const App = () => {
             <Banner />
             <Divider inverted />
             <Navigation />
-            <Divider inverted />
           </StyledPage>
         </ThemeProvider>
       </div>
