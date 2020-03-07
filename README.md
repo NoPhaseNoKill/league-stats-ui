@@ -41,6 +41,7 @@ Dota Stats UI: A web interface for viewing everything stats related for Dota 2.
 
 - Language: Typescript
 - Framework: React
+- Testing Framework: Jest + Enzyme
 - Components: Semantic UI React
 - CSS: Styled Components
 
@@ -57,3 +58,9 @@ Dota Stats UI: A web interface for viewing everything stats related for Dota 2.
   - Tutorial: https://reactjs.org/tutorial/tutorial.html
   - Hello world: https://reactjs.org/docs/hello-world.html
   - Thinking in React: https://facebook.github.io/react/docs/thinking-in-react.html
+- Jest
+  - Basic docs: https://jestjs.io/docs/en/getting-started
+  - More advanced patterns/examples: https://jestjs.io/docs/en/snapshot-testing
+- Enzyme:
+  - Shallow rendering: https://github.com/enzymejs/enzyme/blob/master/docs/api/shallow.md
+  - Full DOM rendering: https://github.com/enzymejs/enzyme/blob/master/docs/api/mount.md
