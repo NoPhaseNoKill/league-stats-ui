@@ -10,13 +10,13 @@ type Props = RouteComponentProps & {
   label: string;
 };
 
+const ThemedButton = (props: ThemedComponentProps<StrictButtonProps>) => <Button {...props} />;
+
+const StyledButton = styled(ThemedButton)`
+  border-radius: 9px;
+`;
+
 const RouteredNavigationButton = (props: Props) => {
-  const ThemedButton = (props: ThemedComponentProps<StrictButtonProps>) => <Button {...props} />;
-
-  const StyledButton = styled(ThemedButton)`
-    border-radius: 9px;
-  `;
-
   const onClick = () => {
     props.history.push(props.route);
   };
