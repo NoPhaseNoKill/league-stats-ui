@@ -44,7 +44,7 @@
     "react-scripts": "3.3.0",
     "request": "^2.88.0",
     "semantic-ui-react": "^0.88.2",
-    "styled-components": "^5.0.0",
+    "styled-components": "^5.0.1",
     "typescript": "~3.8.3"
   },
   "devDependencies": {
