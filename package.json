@@ -8,7 +8,6 @@
     "start:server": "ts-node-dev --respawn --transpileOnly -r esm -r dotenv/config src/server.ts --exec nodemon -r esm",
     "build": "react-app-rewired build",
     "test": "CI=true react-app-rewired test",
-    "test2": "react-app-rewired test",
     "eject": "react-scripts eject",
     "lint": "eslint src/ --ext .ts,.tsx,.js,.jsx"
   },
