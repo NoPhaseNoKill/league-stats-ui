@@ -24,6 +24,7 @@ module.exports = {
     '@typescript-eslint/prefer-optional-chain': 'error',
     '@typescript-eslint/prefer-nullish-coalescing': 'error',
     '@typescript-eslint/member-delimiter-style': 'off',
+    '@typescript-eslint/no-require-imports': 2,
   },
   settings: {
     react: {
