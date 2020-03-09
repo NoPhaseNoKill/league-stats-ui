@@ -1,0 +1,11 @@
+diff --git a/node_modules/react-app-rewired/scripts/utils/babelTransform.js b/node_modules/react-app-rewired/scripts/utils/babelTransform.js
+index 87a5700..240c4a4 100644
+--- a/node_modules/react-app-rewired/scripts/utils/babelTransform.js
++++ b/node_modules/react-app-rewired/scripts/utils/babelTransform.js
+@@ -3,5 +3,6 @@ const babelJest = require('babel-jest');
+ module.exports = babelJest.createTransformer({
+   presets: [require.resolve('babel-preset-react-app')],
+   plugins: [],
++  configFile: false,
+   babelrc: true
+ });
