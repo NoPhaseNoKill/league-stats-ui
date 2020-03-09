@@ -6,9 +6,7 @@ cache:
     - node_modules
 script:
   - yarn lint
-  - yarn react-scripts test --showConfig
-  - yarn react-app-rewire test --showConfig
-  - CI=true yarn test --debug --verbose --runInBand --detectOpenHandles
+  - CI=true yarn test --ci --verbose --runInBand --detectOpenHandles
 branches:
   only:
     - master
