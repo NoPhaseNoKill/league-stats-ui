@@ -1,4 +1,4 @@
-# dota-stats-ui
+# dota-stats-ui [![Build Status](https://travis-ci.com/NoPhaseNoKill/dota-stats-ui.svg?branch=master)](https://travis-ci.com/NoPhaseNoKill/dota-stats-ui)
 
 Dota Stats UI: A web interface for viewing everything stats related for Dota 2.
 
