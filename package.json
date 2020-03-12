@@ -32,7 +32,7 @@
   "dependencies": {
     "@quickbaseoss/babel-plugin-styled-components-css-namespace": "^1.0.0-rc4",
     "@testing-library/jest-dom": "^5.1.1",
-    "@testing-library/react": "^9.5.0",
+    "@testing-library/react": "^10.0.0",
     "@testing-library/user-event": "^10.0.0",
     "axios": "^0.19.2",
     "cors": "^2.8.5",
