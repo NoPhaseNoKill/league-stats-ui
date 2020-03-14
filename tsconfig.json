@@ -2,12 +2,7 @@
   "compilerOptions": {
     "target": "es6",
     "baseUrl": "src/",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "scripthost",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "scripthost", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -22,8 +17,5 @@
     "noEmit": true,
     "jsx": "react"
   },
-  "include": [
-    "./src/**/*.ts",
-    "./src/**/*.tsx"
-  ]
+  "include": ["./src/**/*.ts", "./src/**/*.tsx", "./cypress/**/*.ts"]
 }
