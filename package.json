@@ -83,7 +83,7 @@
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1",
     "react-app-rewired": "^2.1.5",
-    "start-server-and-test": "^1.10.10",
+    "start-server-and-test": "^1.10.11",
     "ts-jest": "^25.2.1",
     "ts-node-dev": "^1.0.0-pre.44"
   }
