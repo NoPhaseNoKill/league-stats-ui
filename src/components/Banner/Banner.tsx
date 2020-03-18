@@ -30,11 +30,11 @@ export class Banner extends React.PureComponent {
       <Grid columns={3}>
         <GridColumn width={6} />
         <GridColumn width={4}>
-          <StyledHeader icon textAlign="center">
-            <Image
-              centered
-              size="massive"
-              src="http://icons.iconarchive.com/icons/bokehlicia/pacifica/256/steam-2-icon.png"
+          <StyledHeader icon
+                        textAlign="center">
+            <Image centered
+                   size="massive"
+                   src="http://icons.iconarchive.com/icons/bokehlicia/pacifica/256/steam-2-icon.png"
             />
             <StyledContent>
               <Header.Content>DOTA STATS</Header.Content>

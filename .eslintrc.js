@@ -16,6 +16,10 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   rules: {
+    /* Please note, if you would like to add rules around styling - please do so in file .pretter-eslintrc-styles.js
+       This is done so that it is does not throw errors/warning in a developer's IDE. It will format code
+       during pre-commit stage, using prettier.
+     */
     '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
     '@typescript-eslint/no-inferrable-types': ['error', { ignoreProperties: true, ignoreParameters: false }],
     '@typescript-eslint/interface-name-prefix': ['error', { prefixWithI: 'never' }],
