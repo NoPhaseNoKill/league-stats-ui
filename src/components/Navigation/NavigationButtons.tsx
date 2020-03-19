@@ -33,6 +33,10 @@ export const NavigationButtons = () => {
                    stretched>
         <Button content={'Sem button 4'} />
       </Grid.Column>
+      <Grid.Column width={1}
+                   stretched>
+        <Button content={'Sem button 5'} />
+      </Grid.Column>
       <Grid.Column />
       <Grid.Column />
     </Grid>
