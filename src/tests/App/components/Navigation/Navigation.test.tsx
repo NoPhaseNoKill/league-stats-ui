@@ -7,8 +7,10 @@ it('renders navigation buttons when app starts', () => {
   const wrapper = mount(<App />);
   const navigationButtons = wrapper.find(NavigationButton);
   expect(wrapper.containsMatchingElement(<NavigationButton route={'/'}
-                                                           label={'Home'} />)).toBeTruthy();
+                                                           label={'Home'}
+                                         />)).toBeTruthy();
   expect(wrapper.containsMatchingElement(<NavigationButton route={'/heroes'}
-                                                           label={'Heroes'} />)).toBeTruthy();
+                                                           label={'Heroes'}
+                                         />)).toBeTruthy();
   expect(navigationButtons).toHaveLength(2);
 });

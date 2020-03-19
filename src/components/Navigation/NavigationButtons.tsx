@@ -9,12 +9,14 @@ export const NavigationButtons = () => {
       <Grid.Column width={1}
                    stretched>
         <NavigationButton route={'/'}
-                          label={'Home'} />
+                          label={'Home'}
+        />
       </Grid.Column>
       <Grid.Column width={1}
                    stretched>
         <NavigationButton route={'/heroes'}
-                          label={'Heroes'} />
+                          label={'Heroes'}
+        />
       </Grid.Column>
       <Grid.Column width={1}
                    stretched>
@@ -24,6 +26,10 @@ export const NavigationButtons = () => {
       <Grid.Column width={1}
                    stretched>
         <Button content={'Sem button 2'} />
+      </Grid.Column>
+      <Grid.Column width={1}
+                   stretched>
+        <Button content={'Sem button 3'} />
       </Grid.Column>
       <Grid.Column />
       <Grid.Column />
