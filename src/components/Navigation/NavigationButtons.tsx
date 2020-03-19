@@ -27,15 +27,7 @@ export const NavigationButtons = () => {
       </Grid.Column>
       <Grid.Column width={1}
                    stretched>
-        <Button content={'Sem button 3'} />
-      </Grid.Column>
-      <Grid.Column width={1}
-                   stretched>
-        <Button content={'Sem button 4'} />
-      </Grid.Column>
-      <Grid.Column width={1}
-                   stretched>
-        <Button content={'Sem button 5'} />
+        <Button content={'Sem button 10'} />
       </Grid.Column>
       <Grid.Column />
       <Grid.Column />
