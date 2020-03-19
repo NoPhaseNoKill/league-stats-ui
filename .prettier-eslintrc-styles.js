@@ -6,21 +6,13 @@
 module.exports = {
   extends: '.eslintrc.js',
   rules: {
-    'arrow-spacing': [2, { before: true, after: true }],
-    'prefer-template': [2],
-    'space-in-parens': [2, 'never'],
-    'react/jsx-first-prop-new-line': [2, 'never'],
+    'react/jsx-first-prop-new-line': [1, 'never'],
     'react/jsx-max-props-per-line': [
-      2,
+      1,
       {
         maximum: 1,
       },
     ],
-    'react/jsx-indent-props': [2, 'first'],
-    'react/jsx-closing-tag-location': [2],
-    'react/jsx-closing-bracket-location': [2, { selfClosing: 'tag-aligned', nonEmpty: 'after-props' }],
-    'react/jsx-pascal-case': [2],
-    'react/jsx-indent': [2, 2, { indentLogicalExpressions: true }],
-    'react/jsx-one-expression-per-line': [2, { allow: 'single-child' }],
+    'react/jsx-indent-props': [1, 'first'],
   },
 };

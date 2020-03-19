@@ -9,14 +9,12 @@ export const NavigationButtons = () => {
       <Grid.Column width={1}
                    stretched>
         <NavigationButton route={'/'}
-                          label={'Home'}
-        />
+                          label={'Home'} />
       </Grid.Column>
       <Grid.Column width={1}
                    stretched>
         <NavigationButton route={'/heroes'}
-                          label={'Heroes'}
-        />
+                          label={'Heroes'} />
       </Grid.Column>
       <Grid.Column width={1}
                    stretched>
