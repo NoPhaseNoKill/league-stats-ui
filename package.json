@@ -19,7 +19,7 @@
   "proxy": "http://localhost:3001",
   "husky": {
     "hooks": {
-      "pre-commit": "yarn test && lint-staged"
+      "pre-commit": "yarn test && lint-staged --allow-empty"
     }
   },
   "lint-staged": {
