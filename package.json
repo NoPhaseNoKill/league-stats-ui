@@ -14,7 +14,7 @@
     "lint": "eslint --fix src/ --ext .ts,.tsx,.js,.jsx",
     "cypress:open": "cypress open",
     "cypress:ci": "cypress run --config video=false",
-    "format": "prettier-eslint --eslint-config-path '.prettier-eslintrc-styles.js' --write $PWD/'src/**/*.[jt]s?(x)'"
+    "format": "prettier-eslint --eslint-config-path '.prettier-eslintrc-styles.js' --write"
   },
   "proxy": "http://localhost:3001",
   "husky": {
