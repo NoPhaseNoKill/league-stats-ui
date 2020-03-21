@@ -11,7 +11,7 @@ app.use(requestHandlers);
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
 app.get('/*', (req, res) => {
-  const url = `https://api.steampowered.com${req.originalUrl}/?key=${process.env.STEAM_API}`;
+  const url = `https://oc1.api.riotgames.com${req.originalUrl}/?api_key=${process.env.RIOT_API_KEY}`;
   request.get(url, (error, steamRes, steamBody) => {
     res.setHeader('Content-Type', 'application/json');
     res.send(steamBody);

@@ -1,18 +1,18 @@
-# dota-stats-ui [![Build Status](https://travis-ci.com/NoPhaseNoKill/dota-stats-ui.svg?branch=master)](https://travis-ci.com/NoPhaseNoKill/dota-stats-ui)
+# league-stats-ui [![Build Status](https://travis-ci.com/NoPhaseNoKill/league-stats-ui.svg?branch=master)](https://travis-ci.com/NoPhaseNoKill/league-stats-ui)
 
-Dota Stats UI: A web interface for viewing everything stats related for Dota 2.
+League Stats UI: A web interface for viewing everything stats related for League of Legends.
 
 ## Quickstart
 
-- Clone the repo using `git clone git://github.com/NoPhaseNoKill/dota-stats-ui.git`
+- Clone the repo using `git clone git://github.com/NoPhaseNoKill/league-stats-ui.git`
 
 ### Before starting app
 
 - Install Yarn
 - Install project dependencies with `yarn install`
-- Get Steam API key from https://steamcommunity.com/login/home/?goto=%2Fdev%2Fapikey
+- Get Riot API key from https://developer.riotgames.com/
 - Create .env file in root directory
-- Add STEAM_API=XXXXXXXXXXXXX (your key instead of XXXXXX) to .env file
+- Add RIOT_API_KEY=XXXXXXXXXXXXX (your key instead of XXXXXX) to .env file
 - If you would like IntelliSense for styled-components' template literals, please download relevant IDE plugin
   - VSCode: https://github.com/styled-components/vscode-styled-components
   - IntelliJ: https://plugins.jetbrains.com/plugin/9997-styled-components--styled-jsx/

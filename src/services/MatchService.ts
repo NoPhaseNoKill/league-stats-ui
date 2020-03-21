@@ -1,17 +1,17 @@
-import { Hero } from 'types/Hero/Hero';
 import { AxiosError, AxiosRequestConfig, AxiosResponse } from 'axios';
 import { axios } from 'services/fetch';
+import { Match } from 'types/Match/Match';
 
-export const HeroService = {
-  getAll: async (): Promise<Hero[]> => {
+export const MatchService = {
+  getById: async (matchId: string): Promise<Match> => {
     const requestConfig: AxiosRequestConfig = {
       method: 'get',
-      url: `IEconDOTA2_205790/GetHeroes/v1`,
+      url: `/lol/match/v4/matches/${matchId}`,
     };
 
     return axios
       .request(requestConfig)
       .catch((response: AxiosError) => Promise.reject(response.response?.data))
-      .then((response: AxiosResponse) => response.data.result.heroes);
+      .then((response: AxiosResponse) => response.data);
   },
 };

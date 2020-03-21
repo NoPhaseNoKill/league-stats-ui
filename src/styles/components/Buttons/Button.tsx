@@ -8,5 +8,5 @@ const ThemedButton = (props: ThemedComponentProps<StrictButtonProps>) => <Semant
 export const Button = styled(ThemedButton)`
   color: ${(props) => props.theme.colors.lightGrey};
   background: ${(props) => props.theme.colors.charcoal};
-  border: 1.5px solid ${(props) => props.theme.colors.dotaRed};
+  border: 1.5px solid ${(props) => props.theme.colors.red};
 `;

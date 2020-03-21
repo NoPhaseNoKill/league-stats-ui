@@ -20,7 +20,7 @@ const StyledContent = styled.div`
 const SubHeader = styled.header`
   &&& {
     font-size: 14px;
-    color: ${(props) => props.theme.colors.dotaRed};
+    color: ${(props) => props.theme.colors.red};
   }
 `;
 
@@ -34,10 +34,10 @@ export class Banner extends React.PureComponent {
                         textAlign="center">
             <Image centered
                    size="massive"
-                   src="http://icons.iconarchive.com/icons/bokehlicia/pacifica/256/steam-2-icon.png"
+                   src="https://img.icons8.com/dusk/64/000000/league-of-legends.png"
             />
             <StyledContent>
-              <Header.Content>DOTA STATS</Header.Content>
+              <Header.Content>LEAGUE STATS</Header.Content>
             </StyledContent>
             <SubHeader>Everything a professional needs.</SubHeader>
           </StyledHeader>

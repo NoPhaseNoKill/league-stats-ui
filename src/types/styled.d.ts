@@ -9,7 +9,7 @@ declare module 'styled-components' {
     fontSize: string;
     colors: {
       background: string;
-      dotaRed: string;
+      red: string;
       charcoal: string;
       lightGrey: string;
     };
