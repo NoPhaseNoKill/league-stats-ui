@@ -1,9 +1,7 @@
 import React from 'react';
 import { Grid, GridColumn } from 'semantic-ui-react';
 import styled from 'styled-components';
-import { Header } from 'components/HTML/Header/Header';
-import { Image } from 'components/HTML/Image';
-import { SubHeader } from 'components/HTML/Header/SubHeader';
+import { Header, SubHeader, Image } from 'components/HTML';
 
 const StyledContent = styled.div`
   &&& {
