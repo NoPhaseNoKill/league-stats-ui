@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Button } from 'styles/components/Buttons/index';
 import { ThemedComponentProps } from 'types/Theme/ThemedComponentProps';
 import { StrictButtonProps } from 'semantic-ui-react';
 import { RouteComponentProps, withRouter } from 'react-router';
 import { StyledComponentWrapper } from 'components/HTML/StyledComponentWrapper';
+import { Button } from 'components/HTML/Buttons/Button';
 
 type Props = RouteComponentProps & {
   route: string;

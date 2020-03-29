@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Grid } from 'semantic-ui-react';
-import { NavigationButton } from 'styles/components/Buttons';
+import { NavigationButton } from 'components/HTML';
 
 export const NavigationButtons = () => {
   return (

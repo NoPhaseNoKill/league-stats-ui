@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { ThemeProvider } from 'styled-components';
-import { theme } from 'styles/theme/theme';
+import { theme } from 'styles/theme';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Banner } from 'components/Banner/Banner';
 import { Divider } from 'semantic-ui-react';
