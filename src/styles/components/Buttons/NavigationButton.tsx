@@ -4,13 +4,15 @@ import { Button } from 'styles/components/Buttons/index';
 import { ThemedComponentProps } from 'types/Theme/ThemedComponentProps';
 import { StrictButtonProps } from 'semantic-ui-react';
 import { RouteComponentProps, withRouter } from 'react-router';
+import { StyledComponentWrapper } from 'components/HTML/StyledComponentWrapper';
 
 type Props = RouteComponentProps & {
   route: string;
   label: string;
 };
 
-const ThemedButton = (props: ThemedComponentProps<StrictButtonProps>) => <Button {...props} />;
+const ThemedButton = (props: ThemedComponentProps<StrictButtonProps>) =>
+  StyledComponentWrapper(props, Button);
 
 const StyledButton = styled(ThemedButton)`
   border-radius: 9px;

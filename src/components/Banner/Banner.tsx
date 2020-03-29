@@ -4,9 +4,7 @@ import styled from 'styled-components';
 import { Header, SubHeader, Image } from 'components/HTML';
 
 const StyledContent = styled.div`
-  &&& {
-    color: ${(props) => props.theme.colors.lightGrey};
-  }
+  color: ${(props) => props.theme.colors.lightGrey};
 `;
 
 export class Banner extends React.PureComponent {
@@ -16,10 +14,7 @@ export class Banner extends React.PureComponent {
         <GridColumn width={6} />
         <GridColumn width={4}>
           <Header textAlign={'center'}>
-            <Image centered
-                   size="massive"
-                   src="https://img.icons8.com/dusk/64/000000/league-of-legends.png"
-            />
+            <Image src="https://img.icons8.com/dusk/64/000000/league-of-legends.png" />
             <StyledContent>LEAGUE STATS</StyledContent>
             <SubHeader>Everything a professional needs.</SubHeader>
           </Header>
