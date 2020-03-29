@@ -1,26 +1,13 @@
 import React from 'react';
-import { Grid, GridColumn, Header, Image, StrictHeaderProps } from 'semantic-ui-react';
-import { ThemedComponentProps } from 'types/Theme/ThemedComponentProps';
+import { Grid, GridColumn } from 'semantic-ui-react';
 import styled from 'styled-components';
-
-const ThemedHeader = (props: ThemedComponentProps<StrictHeaderProps>) => <Header {...props} />;
-
-const StyledHeader = styled(ThemedHeader)`
-  &&& {
-    margin-bottom: 0;
-  }
-`;
+import { Header } from 'components/HTML/Header/Header';
+import { Image } from 'components/HTML/Image';
+import { SubHeader } from 'components/HTML/Header/SubHeader';
 
 const StyledContent = styled.div`
   &&& {
     color: ${(props) => props.theme.colors.lightGrey};
-  }
-`;
-
-const SubHeader = styled.header`
-  &&& {
-    font-size: 14px;
-    color: ${(props) => props.theme.colors.red};
   }
 `;
 
@@ -30,17 +17,14 @@ export class Banner extends React.PureComponent {
       <Grid columns={3}>
         <GridColumn width={6} />
         <GridColumn width={4}>
-          <StyledHeader icon
-                        textAlign="center">
+          <Header textAlign={'center'}>
             <Image centered
                    size="massive"
                    src="https://img.icons8.com/dusk/64/000000/league-of-legends.png"
             />
-            <StyledContent>
-              <Header.Content>LEAGUE STATS</Header.Content>
-            </StyledContent>
+            <StyledContent>LEAGUE STATS</StyledContent>
             <SubHeader>Everything a professional needs.</SubHeader>
-          </StyledHeader>
+          </Header>
         </GridColumn>
         <GridColumn width={6} />
       </Grid>
