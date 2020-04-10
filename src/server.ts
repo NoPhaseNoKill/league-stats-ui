@@ -7,7 +7,9 @@ const app = express();
 const port = process.env.PORT ?? 3001;
 const requestHandlers = [cors(), bodyParser.json()];
 
-app.use(() => requestHandlers);
+// eslint-disable-next-line @typescript-eslint/ban-ts-ignore
+// @ts-ignore
+app.use(requestHandlers);
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
 app.get('/*', (req, res) => {
