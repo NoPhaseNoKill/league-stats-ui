@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT ?? 3001;
 const requestHandlers = [cors(), bodyParser.json()];
 
-app.use(requestHandlers);
+app.use(() => requestHandlers);
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
 app.get('/*', (req, res) => {
