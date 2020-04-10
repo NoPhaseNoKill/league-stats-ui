@@ -25,7 +25,10 @@ type GridColumnWidth =
   | 16;
 
 const StyledColumn = styled.div<Props>`
-  min-width: ${(props) => (props.width / 16) * 100}%;
+  min-width: ${(props) => (props.width / 15) * 100}%;
+  max-width: ${(props) => (props.width / 15) * 100}%;
+  justify-content: center;
+  display: flex;
 `;
 
 export const GridColumn: React.FC<Props> = (props: Props) => {

@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Header, SubHeader, Image } from 'components/HTML';
 import { GridColumn } from 'components/HTML/Grid/GridColumn';
+import { Grid } from 'components/HTML/Grid/Grid';
 
 const StyledContent = styled.div`
   color: ${(props) => props.theme.colors.lightGrey};
@@ -10,7 +11,7 @@ const StyledContent = styled.div`
 export class Banner extends React.PureComponent {
   render() {
     return (
-      <>
+      <Grid>
         <GridColumn width={6} />
         <GridColumn width={4}>
           <Header textAlign={'center'}>
@@ -20,7 +21,7 @@ export class Banner extends React.PureComponent {
           </Header>
         </GridColumn>
         <GridColumn width={6} />
-      </>
+      </Grid>
     );
   }
 }

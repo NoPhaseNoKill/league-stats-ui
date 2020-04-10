@@ -1,34 +1,30 @@
 import React from 'react';
-import { Button, Grid } from 'semantic-ui-react';
-import { NavigationButton } from 'components/HTML';
+// import { Button } from 'semantic-ui-react';
+import { NavigationButton, Button } from 'components/HTML';
+import { GridColumn } from 'components/HTML/Grid/GridColumn';
+import { Grid } from 'components/HTML/Grid/Grid';
 
 export const NavigationButtons = () => {
   return (
-    <Grid columns={16}>
-      <Grid.Column width={6} />
-      <Grid.Column width={1}
-                   stretched>
+    <Grid>
+      <GridColumn width={6} />
+      <GridColumn width={1}>
         <NavigationButton route={'/'}
                           label={'Home'}
         />
-      </Grid.Column>
-      <Grid.Column width={1}
-                   stretched>
+      </GridColumn>
+      <GridColumn width={1}>
         <NavigationButton route={'/heroes'}
                           label={'Heroes'}
         />
-      </Grid.Column>
-      <Grid.Column width={1}
-                   stretched>
-        <Button content={'Sem button 1'} />
-      </Grid.Column>
-      <Grid.Column />
-      <Grid.Column width={1}
-                   stretched>
-        <Button content={'Sem button 2'} />
-      </Grid.Column>
-      <Grid.Column />
-      <Grid.Column />
+      </GridColumn>
+      <GridColumn width={1}>
+        <Button content={'Button 1 long'} />
+      </GridColumn>
+      <GridColumn width={1} />
+      <GridColumn width={1}>
+        <Button content={'Button 2 long'} />
+      </GridColumn>
     </Grid>
   );
 };
