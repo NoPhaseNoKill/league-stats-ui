@@ -1,8 +1,6 @@
 language: node_js
-# node version above 12.10 is incompatible with current babel plugin. Was causing tests to fail inside of TravisCI.
-# See https://github.com/QuickBase/babel-plugin-styled-components-css-namespace/issues/54
 node_js:
-  - 10
+  - node
 addons:
   apt:
     packages:
