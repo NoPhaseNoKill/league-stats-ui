@@ -42,13 +42,10 @@ League Stats UI: A web interface for viewing everything stats related for League
 - Language: Typescript
 - Framework: React
 - Testing Framework: Jest + Enzyme + Cypress
-- Components: Semantic UI React
 - CSS: Styled Components
 
 ## Resources
 
-- Semantic UI React
-  - https://react.semantic-ui.com/
 - Styled Components
   - https://styled-components.com/docs
 - Typescript
