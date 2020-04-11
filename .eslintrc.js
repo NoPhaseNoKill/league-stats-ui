@@ -5,6 +5,9 @@ module.exports = {
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
+    'prettier',
+    'prettier/@typescript-eslint',
+    'prettier/react',
   ],
   parserOptions: {
     ecmaVersion: 2019, // Allows for the parsing of modern ECMAScript features
@@ -21,8 +24,14 @@ module.exports = {
        during pre-commit stage, using prettier.
      */
     '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
-    '@typescript-eslint/no-inferrable-types': ['error', { ignoreProperties: true, ignoreParameters: false }],
-    '@typescript-eslint/interface-name-prefix': ['error', { prefixWithI: 'never' }],
+    '@typescript-eslint/no-inferrable-types': [
+      'error',
+      { ignoreProperties: true, ignoreParameters: false },
+    ],
+    '@typescript-eslint/interface-name-prefix': [
+      'error',
+      { prefixWithI: 'never' },
+    ],
     '@typescript-eslint/explicit-function-return-type': 'off', //To encourage inference as much as possible
     '@typescript-eslint/no-useless-constructor': 'error',
     '@typescript-eslint/prefer-optional-chain': 'error',
