@@ -13,6 +13,3 @@ cache:
 script:
   - yarn lint
   - yarn test
-branches:
-  only:
-    - master
