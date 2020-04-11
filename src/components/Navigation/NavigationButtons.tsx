@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Button } from 'semantic-ui-react';
 import { NavigationButton, Button } from 'components/HTML';
 import { GridColumn } from 'components/HTML/Grid/GridColumn';
 import { Grid } from 'components/HTML/Grid/Grid';

@@ -5,6 +5,6 @@ describe('Test App', () => {
 
   it('finds navigation button', () => {
     cy.visit('/');
-    cy.get('button.ui.button').contains('Home');
+    cy.get('button').contains('Home');
   });
 });
