@@ -10,4 +10,5 @@ export const Button = styled(ThemedButton)`
   color: ${(props) => props.theme.colors.lightGrey};
   background: ${(props) => props.theme.colors.charcoal};
   border: 1.5px solid ${(props) => props.theme.colors.red};
+  width: 100px;
 `;
