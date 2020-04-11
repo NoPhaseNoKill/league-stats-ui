@@ -20,7 +20,6 @@ export const NavigationButtons = () => {
       <GridColumn width={1}>
         <Button content={'Button 1 long'} />
       </GridColumn>
-      <GridColumn width={1} />
       <GridColumn width={1}>
         <Button content={'Button 2 long'} />
       </GridColumn>
