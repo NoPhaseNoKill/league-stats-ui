@@ -51,7 +51,7 @@
     "react-scripts": "3.4.0",
     "request": "^2.88.2",
     "styled-components": "^5.1.0",
-    "typescript": "~3.8.3"
+    "typescript": "~3.9.3"
   },
   "devDependencies": {
     "@types/cors": "^2.8.6",
