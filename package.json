@@ -86,6 +86,6 @@
     "prettier-eslint-cli": "^5.0.0",
     "start-server-and-test": "^1.11.5",
     "ts-jest": "^26.4.3",
-    "ts-node-dev": "^1.0.0-pre.56"
+    "ts-node-dev": "^1.0.0"
   }
 }
