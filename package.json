@@ -82,7 +82,7 @@
     "node-env-run": "^4.0.2",
     "nodemon": "^2.0.6",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.2.1",
+    "prettier": "^2.3.0",
     "prettier-eslint-cli": "^5.0.0",
     "start-server-and-test": "^1.11.6",
     "ts-jest": "^26.4.4",
